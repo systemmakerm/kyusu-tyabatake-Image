@@ -1,0 +1,25 @@
+#sdk: "/Users/Ryota/.rvm/gems/ruby-1.9.3-p194@rhodes/gems/rhodes-3.3.3"
+sdkversion: 3.3.3
+name: image
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.image
+  BundleURLScheme: image
+wp:
+  productid: 'b368cf30-bcd5-012f-2511-3c07542aa8a3'
+symbian:
+  uid: '0xe7781e6c'
+android:
+  version: 2.1
+capabilities:
+- camera
+extensions: ["json", "another-extension"]
